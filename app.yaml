@@ -1,0 +1,3 @@
+runtime: python312
+instance_class: F1
+entrypoint: gunicorn -b :$PORT app:app
